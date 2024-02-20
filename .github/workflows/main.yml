@@ -7,8 +7,8 @@ on:
   push:
     branches: [ main ]
   # Daily Auto Update
-  # schedule:
-  #   - cron: "5 0 * * *"
+  schedule:
+    - cron: "5 0 * * *"
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in
