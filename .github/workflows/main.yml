@@ -48,7 +48,7 @@ jobs:
     - name: Commit to the repo
       run: |
         git config --global user.name "github-stats[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com
+        git config --global user.email "github-stats[bot]@example.com"        
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
