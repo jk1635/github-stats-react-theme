@@ -1,9 +1,9 @@
 # [GitHub Stats Visualization : React Theme](https://github.com/jk1635/github-stats-react-theme)
 
-<a href="https://github.com/jk1635/github-stats-react-theme-2">
+<a href="https://github.com/jk1635/github-stats-react-theme">
 
-![](https://github.com/jk1635/github-stats-react-theme-2/blob/main/generated/overview.svg)
-![](https://github.com/jk1635/github-stats-react-theme-2/blob/main/generated/languages.svg)
+![](https://github.com/jk1635/github-stats-react-theme/blob/main/generated/overview.svg)
+![](https://github.com/jk1635/github-stats-react-theme/blob/main/generated/languages.svg)
 
 </a>
 
@@ -19,7 +19,7 @@
    Personal access token must have permissions: `read:user` and `repo`. Copy
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
-2. Click [here](https://github.com/jk1635/github-stats-react-theme-2/fork) to create a
+2. Click [here](https://github.com/jk1635/github-stats-react-theme/fork) to create a
    copy of this repository.
 3. If this is the README of your fork, click [this
    link](../../settings/secrets/actions) to go to the "Secrets" page.
@@ -37,7 +37,7 @@
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/jk1635/github-stats-react-theme-2/blob/main/.github/workflows/main.yml))
+     workflow](https://github.com/jk1635/github-stats-react-theme/blob/main/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
@@ -50,10 +50,10 @@
    lines of code into your markdown content. Change the `username` value to your GitHub 
    username.
    ```md
-   ![](https://github.com/username/github-stats-react-theme-2/blob/main/generated/overview.svg)
+   ![](https://github.com/username/github-stats-react-theme/blob/main/generated/overview.svg)
    ```
    ```md
-   ![](https://github.com/username/github-stats-react-theme-2/blob/main/generated/languages.svg)
+   ![](https://github.com/username/github-stats-react-theme/blob/main/generated/languages.svg)
    ```
 9. Link back to this repository so that others can generate their own
    statistics images.
